@@ -86,7 +86,7 @@
 
             $('#taskForm').on('submit', function (e) {
                 e.preventDefault();
-                $.post('ajax/save_task.php', $(this).serialize(), function () {
+                $.post('../ajax/save_task.php', $(this).serialize(), function () {
                     modal.hide();
                     loadTasks($('#phase_select').val());
                 });

@@ -9,13 +9,11 @@
     <li>
       <a href="admin_phases.php" class="nav-link link-dark">Admin Phases</a>
     </li>
-
-    	<li>
-  <a href="projects.php" class="nav-link link-dark">Projects</a>
-</li>
-
+    <li>
+      <a href="admin_roles.php" class="nav-link link-dark">Admin Roles</a>
+    </li>
 	<li>
-  <a href="help.php" class="nav-link link-dark">Help</a>
+  <a href="view_audit_log.php" class="nav-link link-dark">View Audit Log</a>
 </li>
 
   </ul>

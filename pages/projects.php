@@ -50,7 +50,8 @@ $projects = $stmt->fetchAll();
 				Export JSON
 			  </a>
 			    <a href="next_task_prompt.php?project_id=<?= $project['id'] ?>" class="btn btn-sm btn-warning">Work on Next Task</a>
-				<a href="import_tasks.php?project_id=<?= $project['id'] ?>" class="btn btn-secondary">Import Tasks</a>
+				<a href="import_tasks.php?project_id=<?= $project['id'] ?>&project_name=<?= urlencode($project['name']) ?>" class="btn btn-secondary">Import Tasks</a>
+
 
 			</td>
 						</tr>

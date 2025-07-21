@@ -4,9 +4,11 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto"> <!-- ms-auto pushes items to the right -->
         <li class="nav-item">
+          <a class="nav-link" href="About.php">About</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="admin.php">Admin</a>
         </li>
-
       </ul>
     </div>
   </div>

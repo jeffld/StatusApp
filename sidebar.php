@@ -14,6 +14,9 @@
 	<li>
   <a href="help.php" class="nav-link link-dark">Help</a>
 </li>
+	<li>
+  <a href="about.php" class="nav-link link-dark">About</a>
+</li>
 
   </ul>
 </div>
